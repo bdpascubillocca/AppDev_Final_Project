@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
-import 'package:appdev_final_project/features/quotes/love_quotes/red_quote.dart';
-import 'package:appdev_final_project/features/quotes/love_quotes/blue_quote.dart';
-import 'package:appdev_final_project/features/quotes/love_quotes/green_quote.dart';
-import 'package:appdev_final_project/features/quotes/love_quotes/yellow_quote.dart';
-import 'package:appdev_final_project/features/quotes/love_quotes/pink_quote.dart';
-import 'package:appdev_final_project/features/quotes/love_quotes/orange_quote.dart';
+import 'package:appdev_final_project/features/card1_widgets/quotes/health_quotes/red_quote.dart';
+import 'package:appdev_final_project/features/card1_widgets/quotes/health_quotes/blue_quote.dart';
+import 'package:appdev_final_project/features/card1_widgets/quotes/health_quotes/green_quote.dart';
+import 'package:appdev_final_project/features/card1_widgets/quotes/health_quotes/yellow_quote.dart';
+import 'package:appdev_final_project/features/card1_widgets/quotes/health_quotes/pink_quote.dart';
+import 'package:appdev_final_project/features/card1_widgets/quotes/health_quotes/orange_quote.dart';
 
-class PickedLoveTopic extends StatefulWidget {
-  const PickedLoveTopic({Key? key}) : super(key: key);
+class PickedHealthTopic extends StatefulWidget {
+  const PickedHealthTopic({Key? key}) : super(key: key);
 
   @override
-  _PickedLoveTopicState createState() => _PickedLoveTopicState();
+  _PickedHealthTopicState createState() => _PickedHealthTopicState();
 }
 
-class _PickedLoveTopicState extends State<PickedLoveTopic> {
+class _PickedHealthTopicState extends State<PickedHealthTopic> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -46,7 +46,7 @@ class _PickedLoveTopicState extends State<PickedLoveTopic> {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Text(
-                      'RED',
+                      'PINK',
                       style: TextStyle(color: Colors.white, fontSize: 30),
                     )
                   ],

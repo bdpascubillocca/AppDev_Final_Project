@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:appdev_final_project/features/quotes/friendship_quotes/red_quote.dart';
-import 'package:appdev_final_project/features/quotes/friendship_quotes/blue_quote.dart';
-import 'package:appdev_final_project/features/quotes/friendship_quotes/green_quote.dart';
-import 'package:appdev_final_project/features/quotes/friendship_quotes/yellow_quote.dart';
-import 'package:appdev_final_project/features/quotes/friendship_quotes/pink_quote.dart';
-import 'package:appdev_final_project/features/quotes/friendship_quotes/orange_quote.dart';
+import 'package:appdev_final_project/features/card1_widgets/quotes/friendship_quotes/red_quote.dart';
+import 'package:appdev_final_project/features/card1_widgets/quotes/friendship_quotes/blue_quote.dart';
+import 'package:appdev_final_project/features/card1_widgets/quotes/friendship_quotes/green_quote.dart';
+import 'package:appdev_final_project/features/card1_widgets/quotes/friendship_quotes/yellow_quote.dart';
+import 'package:appdev_final_project/features/card1_widgets/quotes/friendship_quotes/pink_quote.dart';
+import 'package:appdev_final_project/features/card1_widgets/quotes/friendship_quotes/orange_quote.dart';
 
 class PickedFriendshipTopic extends StatefulWidget {
   const PickedFriendshipTopic({Key? key}) : super(key: key);

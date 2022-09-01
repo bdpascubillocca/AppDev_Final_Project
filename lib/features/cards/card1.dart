@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:appdev_final_project/themes/text_themes.dart';
-import 'package:appdev_final_project/features/topic_picker/picked_love_topic.dart';
-import 'package:appdev_final_project/features/topic_picker/picked_friendship_topic.dart';
-import 'package:appdev_final_project/features/topic_picker/picked_life_topic.dart';
-import 'package:appdev_final_project/features/topic_picker/picked_motivation_topic.dart';
-import 'package:appdev_final_project/features/topic_picker/picked_career_topic.dart';
-import 'package:appdev_final_project/features/topic_picker/picked_health_topic.dart';
+import 'package:appdev_final_project/features/card1_widgets/topic_picker/picked_love_topic.dart';
+import 'package:appdev_final_project/features/card1_widgets/topic_picker/picked_friendship_topic.dart';
+import 'package:appdev_final_project/features/card1_widgets/topic_picker/picked_life_topic.dart';
+import 'package:appdev_final_project/features/card1_widgets/topic_picker/picked_motivation_topic.dart';
+import 'package:appdev_final_project/features/card1_widgets/topic_picker/picked_career_topic.dart';
+import 'package:appdev_final_project/features/card1_widgets/topic_picker/picked_health_topic.dart';
 
 class Card1 extends StatefulWidget {
   const Card1({Key? key}) : super(key: key);
@@ -37,7 +37,7 @@ class _Card1State extends State<Card1> {
           ),
           //Each containers goes here
           children: [
-            //Inkwell is just a container that reacts on motion. We used inwell because we cannot us "onpress" on grid view.
+            //Inkwell is just a container that reacts on motion. We used inwell because we cannot us "onpress" on grid view. A rectangular area of a Material that responds to touch.
             InkWell(
               //when user tap a tile it creates a new screen displaying whatever is on the path specified in this case "PickedLoveTopic()"
               onTap: () {

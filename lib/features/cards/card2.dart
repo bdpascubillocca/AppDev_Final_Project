@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:appdev_final_project/features/member_card.dart';
+import 'package:appdev_final_project/features/card2_widgets/member_card.dart';
 
 class Card2 extends StatelessWidget {
   const Card2({Key? key}) : super(key: key);

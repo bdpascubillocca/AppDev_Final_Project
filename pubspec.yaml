@@ -80,7 +80,7 @@ flutter:
   fonts:
    - family: Bangers
      fonts:
-      - asset: assets/Bangers.ttf
+      - asset: assets/fonts/Bangers.ttf
 
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages

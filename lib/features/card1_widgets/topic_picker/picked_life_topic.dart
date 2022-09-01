@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
-import 'package:appdev_final_project/features/quotes/motivation_quotes/red_quote.dart';
-import 'package:appdev_final_project/features/quotes/motivation_quotes/blue_quote.dart';
-import 'package:appdev_final_project/features/quotes/motivation_quotes/green_quote.dart';
-import 'package:appdev_final_project/features/quotes/motivation_quotes/yellow_quote.dart';
-import 'package:appdev_final_project/features/quotes/motivation_quotes/pink_quote.dart';
-import 'package:appdev_final_project/features/quotes/motivation_quotes/orange_quote.dart';
+import 'package:appdev_final_project/features/card1_widgets/quotes/life_quotes/red_quote.dart';
+import 'package:appdev_final_project/features/card1_widgets/quotes/life_quotes/blue_quote.dart';
+import 'package:appdev_final_project/features/card1_widgets/quotes/life_quotes/green_quote.dart';
+import 'package:appdev_final_project/features/card1_widgets/quotes/life_quotes/yellow_quote.dart';
+import 'package:appdev_final_project/features/card1_widgets/quotes/life_quotes/pink_quote.dart';
+import 'package:appdev_final_project/features/card1_widgets/quotes/life_quotes/orange_quote.dart';
 
-class PickedMotivationTopic extends StatefulWidget {
-  const PickedMotivationTopic({Key? key}) : super(key: key);
+class PickedLifeTopic extends StatefulWidget {
+  const PickedLifeTopic({Key? key}) : super(key: key);
 
   @override
-  _PickedMotivationTopicState createState() => _PickedMotivationTopicState();
+  _PickedLifeTopicState createState() => _PickedLifeTopicState();
 }
 
-class _PickedMotivationTopicState extends State<PickedMotivationTopic> {
+class _PickedLifeTopicState extends State<PickedLifeTopic> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

@@ -1,28 +1,26 @@
 import 'package:flutter/material.dart';
-import 'package:appdev_final_project/features/quotes/career_quotes/red_quote.dart';
-import 'package:appdev_final_project/features/quotes/career_quotes/blue_quote.dart';
-import 'package:appdev_final_project/features/quotes/career_quotes/green_quote.dart';
-import 'package:appdev_final_project/features/quotes/career_quotes/yellow_quote.dart';
-import 'package:appdev_final_project/features/quotes/career_quotes/pink_quote.dart';
-import 'package:appdev_final_project/features/quotes/career_quotes/orange_quote.dart';
+import 'package:appdev_final_project/features/card1_widgets/quotes/love_quotes/red_quote.dart';
+import 'package:appdev_final_project/features/card1_widgets/quotes/love_quotes/blue_quote.dart';
+import 'package:appdev_final_project/features/card1_widgets/quotes/love_quotes/green_quote.dart';
+import 'package:appdev_final_project/features/card1_widgets/quotes/love_quotes/yellow_quote.dart';
+import 'package:appdev_final_project/features/card1_widgets/quotes/love_quotes/pink_quote.dart';
+import 'package:appdev_final_project/features/card1_widgets/quotes/love_quotes/orange_quote.dart';
 
-class PickedCareerTopic extends StatefulWidget {
-  const PickedCareerTopic({Key? key}) : super(key: key);
+class PickedLoveTopic extends StatefulWidget {
+  const PickedLoveTopic({Key? key}) : super(key: key);
 
   @override
-  _PickedCareerTopicState createState() => _PickedCareerTopicState();
+  _PickedLoveTopicState createState() => _PickedLoveTopicState();
 }
 
-class _PickedCareerTopicState extends State<PickedCareerTopic> {
+class _PickedLoveTopicState extends State<PickedLoveTopic> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
           title: Text(
         'PICK A COLOR',
-        style: TextStyle(
-          fontSize: 30,
-        ),
+        style: Theme.of(context).textTheme.headline6,
       )),
       body: Container(
         child: GridView(

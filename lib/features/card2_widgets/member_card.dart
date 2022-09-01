@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:appdev_final_project/circle_image.dart';
-import 'package:appdev_final_project/themes/text_themes.dart';
+import 'package:appdev_final_project/features/card2_widgets/circle_image.dart';
 
 class MemberCard extends StatelessWidget {
   const MemberCard(
